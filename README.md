@@ -2,14 +2,16 @@
 
 <code>
 mkdir bundle
+</code>
 
+<code>
 git clone https://github.com/VundleVim/Vundle.vim.git bundle/Vundle.vim
+</code>
 
-cd ~
+<code>
+cd ~; ln -s path-to-repo .vim; ln -s path-to-repo/vimrc .vimrc
+</code>
 
-ln -s path-to-repo .vim
-
-ln -s path-to-repo/vimrc .vimrc
-
+<code>
 vim +PluginInstall +qall
 </code>
